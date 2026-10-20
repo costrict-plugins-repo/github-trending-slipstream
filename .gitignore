@@ -1,0 +1,9 @@
+# Claude Code
+.claude/settings.local.json
+
+# Dart / Flutter
+.dart_tool/
+build/
+doc/api/
+
+.DS_Store

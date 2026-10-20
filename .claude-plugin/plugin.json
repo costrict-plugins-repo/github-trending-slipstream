@@ -1,0 +1,22 @@
+{
+  "_comment": "Claude Code manifest",
+  "name": "flutter-slipstream",
+  "version": "1.6.1",
+  "description": "Live Flutter app introspection for coding agents: screenshots, widget-tree inspection, tap/type/scroll, and error capture. Dart package API summarization for agents.",
+  "repository": "https://github.com/devoncarew/flutter-slipstream",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "dart",
+    "flutter"
+  ],
+  "mcpServers": {
+    "packages": {
+      "command": "dart run ${CLAUDE_PLUGIN_ROOT}/bin/packages_mcp.dart",
+      "cwd": "${CLAUDE_PLUGIN_ROOT}"
+    },
+    "inspector": {
+      "command": "dart run ${CLAUDE_PLUGIN_ROOT}/bin/inspector_mcp.dart",
+      "cwd": "${CLAUDE_PLUGIN_ROOT}"
+    }
+  }
+}
